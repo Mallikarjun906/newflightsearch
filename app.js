@@ -6,5 +6,6 @@ app.listen(port,()=>{
     console.log(`The Server is running on ${port}`);
     const cityrepo= new cityrepository();
     // cityrepo.createcity({name:"bhilai"});
+    console.log("hi")
     cityrepo.deletecity(10);
 })
